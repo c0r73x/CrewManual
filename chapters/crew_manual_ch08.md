@@ -208,4 +208,4 @@ A protocol acting unexpectedly is not necessarily a corruption symptom. Sometime
 
 ---
 
-*Chapter 9 — Station AI — covers the system that executes these protocols, prioritizes power and resources, and may not always be doing what its operators believe it is doing.*
+*[Chapter 9: Station AI](crew_manual_ch09.md) covers the system that executes these protocols, prioritizes power and resources, and may not always be doing what its operators believe it is doing.*

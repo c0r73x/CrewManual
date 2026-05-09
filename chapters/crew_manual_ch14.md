@@ -190,4 +190,4 @@ The Crew Manual is, ultimately, a map of how a station fails. Recovery is what t
 
 ---
 
-*The remaining content in this manual is reference material — worksheet templates and a brief afterword.*
+*Return to the [chapter list](../README.md#chapters) for the full manual structure.*

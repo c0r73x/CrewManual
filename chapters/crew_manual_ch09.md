@@ -156,4 +156,4 @@ In the SOMA configuration — multiple seabed facilities, each with its own AI �
 
 ---
 
-*Chapter 10 — Hot-Wire & Power Sacrifice — covers the player's primary tool for bypassing AI-controlled systems at personal cost.*
+*[Chapter 10: Hot-Wire & Power Sacrifice](crew_manual_ch10.md) covers the player's primary tool for bypassing AI-controlled systems at personal cost.*

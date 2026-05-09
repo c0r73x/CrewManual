@@ -138,4 +138,4 @@ This is the pressure the manual is designed to produce. Survival is not about ha
 
 ---
 
-*Chapter 11 — System Compromise — covers what happens when the systems themselves cannot be trusted: virus, memory wipe, AI corruption, and the slow loss of certainty.*
+*[Chapter 11: System Compromise](crew_manual_ch11.md) covers what happens when the systems themselves cannot be trusted: virus, memory wipe, AI corruption, and the slow loss of certainty.*

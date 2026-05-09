@@ -139,4 +139,4 @@ Skill modifier: +1 with Engineering or Computers ≥ 40; +2 with ≥ 60.
 
 ---
 
-*Chapter 2 — Resource Dice — covers the foundation system every other system rests on.*
+*[Chapter 2: Resource Dice](crew_manual_ch02.md) covers the foundation system every other system rests on.*

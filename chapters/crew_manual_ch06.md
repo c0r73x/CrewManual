@@ -158,4 +158,4 @@ The station, in this configuration, is an antagonist made of geometry and decay.
 
 ---
 
-*Chapter 7 — EVA & Submersion Operations — covers what the character does when they have to leave the safe interior, traverse the outside, or enter a section that no longer welcomes anything alive.*
+*[Chapter 7: EVA & Submersion Operations](crew_manual_ch07.md) covers what the character does when they have to leave the safe interior, traverse the outside, or enter a section that no longer welcomes anything alive.*

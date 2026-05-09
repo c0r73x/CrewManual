@@ -174,4 +174,4 @@ This is the diegetic record of the session. Some players type it. Others handwri
 
 ---
 
-*Chapter 4 — Security Clearance — covers what doors crew can open for the character, and what doors no one can.*
+*[Chapter 4: Security Clearance](crew_manual_ch04.md) covers what doors crew can open for the character, and what doors no one can.*

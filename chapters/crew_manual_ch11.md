@@ -198,4 +198,4 @@ That is the genre's promise: in the deepest dark, the analog things still work.
 
 ---
 
-*The next chapters cover practical play tools — Mythic GME integration, Random Event tables, and the worksheet templates. They are reference, not system.*
+*[Chapter 12: Mythic GME Integration](crew_manual_ch12.md), [Chapter 13: Random Events](crew_manual_ch13.md), and [Chapter 14: Resource Recovery](crew_manual_ch14.md) cover practical play support and reference material.*

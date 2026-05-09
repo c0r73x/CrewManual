@@ -147,4 +147,4 @@ A station in nominal condition has many open doors and few problems. A station i
 
 ---
 
-*Chapter 5 — Power & Section Status — covers the underlying power state that makes most of this work, and what happens when it doesn't.*
+*[Chapter 5: Power & Section Status](crew_manual_ch05.md) covers the underlying power state that makes most of this work, and what happens when it doesn't.*

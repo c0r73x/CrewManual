@@ -133,4 +133,4 @@ The dark is rarely just dark. It is the absence of every other system at once.
 
 ---
 
-*Chapter 6 — Section Integrity & Atmosphere — covers the other two state tracks each section maintains, including hull breaches, flooding, and the kinds of environments that kill without power even being relevant.*
+*[Chapter 6: Section Integrity & Atmosphere](crew_manual_ch06.md) covers the other two state tracks each section maintains, including hull breaches, flooding, and the kinds of environments that kill without power even being relevant.*

@@ -185,4 +185,4 @@ The Crew Manual's systems give the world plenty to say.
 
 ---
 
-*Chapter 13 — Random Events — provides tables tuned to the Crew Manual's specific concerns, supplementing Mythic's general-purpose event mechanics.*
+*[Chapter 13: Random Events](crew_manual_ch13.md) provides tables tuned to the Crew Manual's specific concerns, supplementing Mythic's general-purpose event mechanics.*

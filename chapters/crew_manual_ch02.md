@@ -131,4 +131,4 @@ See *Crew & Comms* for the full crew resource framework.
 
 ---
 
-*Chapter 3 — Crew & Comms — covers the remote crew system that depends on this resource economy.*
+*[Chapter 3: Crew & Comms](crew_manual_ch03.md) covers the remote crew system that depends on this resource economy.*

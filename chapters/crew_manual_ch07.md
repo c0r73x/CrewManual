@@ -205,4 +205,4 @@ A character who has accumulated significant Stress in suit may make a Panic Chec
 
 ---
 
-*Chapter 8 — Station Protocols & Lockdown — covers the formal automated systems that run the station, including the lockdown procedures referenced in this chapter and others.*
+*[Chapter 8: Station Protocols & Lockdown](crew_manual_ch08.md) covers the formal automated systems that run the station, including the lockdown procedures referenced in this chapter and others.*

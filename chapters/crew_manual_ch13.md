@@ -197,4 +197,4 @@ The character cannot avoid Random Events by careful play. They can only respond 
 
 ---
 
-*The remaining content in this manual is reference material — worksheet templates and a brief afterword.*
+*[Chapter 14: Resource Recovery](crew_manual_ch14.md) covers how depleted resources can be restored, and why recovery is never free.*
