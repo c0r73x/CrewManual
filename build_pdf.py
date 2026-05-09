@@ -261,6 +261,18 @@ def table_col_widths(headers):
     if normalized == ("d20", "event"):
         ratios = (0.08, 0.92)
         return [FRAME_W * ratio for ratio in ratios]
+    if normalized == ("likelihood", "notes"):
+        ratios = (0.25, 0.75)
+        return [FRAME_W * ratio for ratio in ratios]
+    if normalized == ("condition", "likelihood shift"):
+        ratios = (0.75, 0.25)
+        return [FRAME_W * ratio for ratio in ratios]
+    if normalized == ("condition", "likelihood that report is accurate"):
+        ratios = (0.70, 0.30)
+        return [FRAME_W * ratio for ratio in ratios]
+    if normalized == ("situation", "chaos factor suggestion"):
+        ratios = (0.75, 0.25)
+        return [FRAME_W * ratio for ratio in ratios]
     return [FRAME_W / len(headers)] * len(headers)
 
 
