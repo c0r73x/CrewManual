@@ -185,6 +185,7 @@ FORCED_SECTION_PAGEBREAKS = {
     "13.4",
     "13.5",
     "13.6",
+    "13.7",
 }
 FORCED_HEADING_PAGEBREAKS = {"4.2"}
 
@@ -587,7 +588,7 @@ def draw_ws_header(canv, num, title, hint=""):
     canv.setFillColor(INK)
     # The page-decoration header is at PAGE_H - MARGIN_TOP + 6 (top rule).
     # We start below that with our own title.
-    title_y = PAGE_H - MARGIN_TOP - 4
+    title_y = PAGE_H - MARGIN_TOP - 18
     canv.setFont('Heading', 13)
     canv.drawString(MARGIN_L, title_y, f"{num}  {title.upper()}")
     if hint:
@@ -599,7 +600,6 @@ def draw_ws_header(canv, num, title, hint=""):
     canv.setStrokeColor(INK)
     canv.setLineWidth(0.8)
     rule_y = title_y - 18
-    canv.line(MARGIN_L, rule_y, PAGE_W - MARGIN_R, rule_y)
     canv.restoreState()
     return rule_y - 6
 
@@ -628,7 +628,6 @@ def page_ws_a1(canv, doc):
     canv.setStrokeColor(INK)
     canv.setLineWidth(0.4)
     canv.line(MARGIN_L, y - 2, PAGE_W - MARGIN_R, y - 2)
-    y -= 4
 
     resources = [
         ("Battery", "battery", "d8 default"),
@@ -669,7 +668,7 @@ def page_ws_a1(canv, doc):
                       fontSize=7, tooltip=f"{label} notes")
 
     # Emergency packs
-    y -= 12
+    y -= 18
     canv.setFont('Body-Bold', 8)
     canv.drawString(MARGIN_L, y, "EMERGENCY PACKS CARRIED")
     canv.setStrokeColor(INK)
@@ -770,7 +769,7 @@ def page_ws_a2(canv, doc):
         # Block separator (except after last block)
         if c < n_crew - 1:
             canv.setStrokeColor(SUBTLE)
-            canv.setLineWidth(0.2)
+            canv.setLineWidth(0.1)
             sep_y = block_bottom + 2
             canv.line(MARGIN_L, sep_y, PAGE_W - MARGIN_R, sep_y)
             canv.setStrokeColor(INK)
@@ -819,12 +818,11 @@ def page_ws_a3(canv, doc):
                       fontSize=7, tooltip="Brth / Tox / Vac / Flood")
 
     # Recovery anchors
-    y -= 12
+    y -= 18
     canv.setFont('Body-Bold', 8)
     canv.drawString(MARGIN_L, y, "RECOVERY ANCHORS")
     canv.setLineWidth(0.4)
-    canv.line(MARGIN_L, y - 2, PAGE_W - MARGIN_R, y - 2)
-    y -= 6
+    y -= 12
 
     sec_w2 = 36 * mm
     type_x = MARGIN_L + sec_w2 + 2 * mm
@@ -975,15 +973,15 @@ def page_ws_a7(canv, doc):
 
     for label, key, lines in fields:
         canv.setFont('Body-Bold', 7)
-        canv.setFillColor(INK)
+        canv.setFillColor(SUBTLE)
         canv.drawString(MARGIN_L, y, label)
         for li in range(lines):
-            y -= 9
+            y -= 12
             fname = f"{key}_{li+1}" if lines > 1 else key
             add_textfield(canv, fname,
                           MARGIN_L, y - 1, avail_w, 7,
                           fontSize=8, tooltip=label)
-        y -= 6
+        y -= 12
     canv.restoreState()
 
 
