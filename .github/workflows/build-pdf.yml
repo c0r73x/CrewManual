@@ -22,11 +22,8 @@ jobs:
       - name: Set up Python
         run: uv python install 3.12
 
-      - name: Install dependencies
-        run: uv pip install reportlab
-
       - name: Build PDF
-        run: uv run build_pdf.py
+        run: uv run --with reportlab build_pdf.py
 
       - name: Upload PDF
         uses: actions/upload-artifact@v4
